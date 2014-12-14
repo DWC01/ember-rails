@@ -13,6 +13,7 @@ gem 'ember-rails'
 gem 'ember-source', '~> 1.8.1'
 gem 'emblem-rails'
 gem 'ffaker'
+gem 'puma'
 
 
 group :development do
