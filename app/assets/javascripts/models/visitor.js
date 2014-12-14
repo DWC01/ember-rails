@@ -5,8 +5,7 @@ App.Visitor = DS.Model.extend({
   phone: DS.attr('string'),
   status: DS.attr('string', { defaultValue: 'new' }),
   notes: DS.attr('string'),
+  fullName: function() {
+    return this.get('firstName') + ' ' + this.get('lastName')
+  }.property('firstName', 'lastName')
 })
-
-// fullName: function() {
-//   return this.get('firstName') + ' ' + this.get('lastName')
-// }.property('firstName', 'lastName')

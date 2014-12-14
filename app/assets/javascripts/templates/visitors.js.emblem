@@ -2,4 +2,7 @@ article#visitors
   h1 Visitors
   ul
     each visitor in controller
-      li= visitor.firstName
+      link-to 'visitor' visitor tagName="li"
+        visitor.fullName
+
+outlet
