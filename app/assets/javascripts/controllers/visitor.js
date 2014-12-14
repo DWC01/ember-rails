@@ -9,6 +9,12 @@ App.VisitorController = Ember.ObjectController.extend({
   actions: {
     saveChanges: function() {
       this.get('model').save();
+    },
+    delete: function() {
+      var self = this;
+      this.get('model').destroyRecord().then(function() {
+        self.transitionToRoute('visitors');
+      });
     }
   }
 
