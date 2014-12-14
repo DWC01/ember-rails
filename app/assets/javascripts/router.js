@@ -6,6 +6,8 @@ App.Router.reopen({
 
 App.Router.map(function() {
   this.resource('visitors', { path: '/' }, function() {
-    this.resource('visitor', { path: '/visitors/:id' });
+    this.resource('visitor', { path: '/visitors/:id' }, function(){
+      this.route('edit')
+    })
   })
 })

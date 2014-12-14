@@ -8,4 +8,8 @@ App.Visitor = DS.Model.extend({
   fullName: function() {
     return this.get('firstName') + ' ' + this.get('lastName')
   }.property('firstName', 'lastName')
-})
+});
+
+App.Visitor.reopenClass({
+  STATUSES: ['new', 'in progress', 'closed', 'bad']
+});
