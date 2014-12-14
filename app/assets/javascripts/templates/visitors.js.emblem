@@ -1,0 +1,5 @@
+article#visitors
+  h1 Visitors
+  ul
+    each visitor in controller
+      li= visitor.firstName
