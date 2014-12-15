@@ -1,6 +1,9 @@
 article#visitor
   h1 New Visitor
 
+  if showError
+    .error Visitors must have a first and last name.
+
   form
     fieldset
       dl

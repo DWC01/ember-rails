@@ -13,3 +13,11 @@ App.Visitor = DS.Model.extend({
 App.Visitor.reopenClass({
   STATUSES: ['new', 'in progress', 'closed', 'bad']
 });
+
+App.Visitor.reopenClass({
+
+  valid: function(fields) {
+    return fields.firstName && fields.lastName
+  }
+
+});
