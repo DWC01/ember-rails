@@ -2,9 +2,9 @@ article#visitors
   h1
     | Visitor
     link-to 'visitors.new' | New Visitor
-
+  view Ember.TextField value=search placeholder="search" classNames="search"
   ul
-    each visitor in controller
+    each visitor in visitors
       link-to 'visitor' visitor tagName="li"
         visitor.fullName
 
