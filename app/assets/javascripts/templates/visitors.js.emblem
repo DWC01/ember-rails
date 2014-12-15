@@ -1,6 +1,6 @@
 article.visitors
   h1.center
-    | Visitors
+    | Current Visitors
   view Ember.TextField value=search placeholder="search" classNames="search form-control"
   ul
     each visitor in visitors

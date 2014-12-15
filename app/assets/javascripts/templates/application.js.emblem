@@ -10,19 +10,19 @@ section.sticky-right.page-menu
 
   aside.page-menu-content
     p.title 
-      link-to 'visitors' | Visitors
+      link-to 'visitors' | Current Visitors
 
   aside.page-menu-content
     p.title
-      a href="#" Thing 2
+      link-to 'visitors' | Upcoming Appointments
 
   aside.page-menu-content
     p.title 
-      a href="#" Thing 3
+      link-to 'visitors' | Documents
 
   aside.page-menu-content
     p.title 
-      a href="#" Thing 4
+      link-to 'visitors' | Settings
 
 outlet
 
