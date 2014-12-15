@@ -1,0 +1,23 @@
+@import 'partials/global';
+
+.visitors {
+  margin: 10px 0 10px 275px;
+  width: 70%;
+  color: $envoy-dark-grey;
+  & h1 {
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  & .search {
+    width: 300px;
+    margin: 0px auto;
+  }
+}
+
+.visitor-names {
+  padding: 10px 50px;
+  font-size: 20px;
+  list-style-type: none;
+  border-bottom: 1px solid #eee;
+}
+

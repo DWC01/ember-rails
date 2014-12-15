@@ -5,7 +5,7 @@ App.Router.reopen({
 })
 
 App.Router.map(function() {
-  this.resource('visitors', { path: '/' }, function() {
+  this.resource('visitors', { path: '/visitors' }, function() {
     this.route('new');
     this.resource('visitor', { path: '/visitors/:id' }, function(){
       this.route('edit');

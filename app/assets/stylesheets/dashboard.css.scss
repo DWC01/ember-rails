@@ -1,0 +1,94 @@
+@import 'partials/global';
+
+.page-menu{
+  width: 260px;
+  height: 100%;
+  border-right: 1px solid #eee;
+}
+
+.page-menu-header{
+  margin: 0 0 3% 0;
+  background-color: #f9f9fa;
+  border-bottom: 1px solid #eee;
+
+  & p {
+    font-size: 20px;
+  }
+  & .title {
+    color: #45474d;
+    margin: 0 0 0 45px;
+    padding: 15px 0;
+  }
+  & i {
+    color: $envoy-red;
+    float: right;
+    margin: 0 15% 0 0;
+    font-size: 25px;
+  }
+  & .bottom-highlight{
+    height: 2px;
+    width: 40%;
+    background-color: $envoy-red;
+  }
+}
+
+.page-menu-content{
+  & p {
+    font-size: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+  }
+  & .title a{
+    color: $envoy-red;
+    margin: 0 0 0 20%;
+  }
+}
+
+////
+
+.bar-graph{
+  margin: 0px auto;
+}
+
+
+.item6 {
+  fill: #a2ffff;
+}
+
+.item5 {
+  fill: #00cbfe;
+}
+
+.item4 {
+  fill: #0098fe;
+}
+
+.item3 {
+  fill: #0065fe;
+}
+
+.item2 {
+  fill: #fc97ca;
+}
+
+.item1 {
+  fill: #9700fb;
+} 
+
+/*
+.item1{
+  fill: #0099ff;
+}
+.item2{
+  fill: #00ccff;
+}
+.item3{
+  fill: #27ae60;
+}
+.item4{
+  fill: #30d94c;
+}
+.item5{
+  fill: #6bff84;
+}
+*/

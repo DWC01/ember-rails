@@ -1,10 +1,29 @@
-header
-  article
-    .logo
-      h1
-        a href="#" Ember CRM
+.navbar.navbar-default
+  .container-fluid
+    .navbar-header
+      a.navbar-brand href="#" R3act
 
-section#main
-  = outlet
+section.sticky-right.page-menu
+  
+  aside.page-menu-header
+    p.title General Routine
+
+  aside.page-menu-content
+    p.title 
+      link-to 'visitors' | Visitors
+
+  aside.page-menu-content
+    p.title
+      a href="#" Thing 2
+
+  aside.page-menu-content
+    p.title 
+      a href="#" Thing 3
+
+  aside.page-menu-content
+    p.title 
+      a href="#" Thing 4
+
+outlet
 
 footer
