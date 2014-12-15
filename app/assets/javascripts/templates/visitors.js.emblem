@@ -1,5 +1,8 @@
 article#visitors
-  h1 Visitors
+  h1
+    | Visitor
+    link-to 'visitors.new' | New Visitor
+
   ul
     each visitor in controller
       link-to 'visitor' visitor tagName="li"
